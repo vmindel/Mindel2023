@@ -15,5 +15,5 @@ rule run_notebook:
     output:
         'res_notebooks/{notebook}.ipynb'
     shell:
-        'papermill {input} {output}'
+        'papermill {input} {output} -k 2023vosa'
         
