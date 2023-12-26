@@ -8,4 +8,5 @@ pip install -r requirements.txt
 
 python -m ipykernel install --user --name env_name --display-name 2023vosa
 
-## Run the jupyter lab or jupyter notebook by the way you prefer and you can run the code to get the figures
+## I provided a Snakemake file which aggregates all of the notebooks executes them and saves the figures in the needed locations to run the worfklow:
+`snakemake all --cores 16`
