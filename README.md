@@ -1,12 +1,12 @@
 # Mindel2023
 
-`conda create -name env_name python=3.8.3
+`conda create -name env_name python=3.8.3`
 
-conda activate env_name
+`conda activate env_name`
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-python -m ipykernel install --user --name env_name --display-name 2023vosa`
+`python -m ipykernel install --user --name env_name --display-name 2023vosa`
 
 ## In terminal creater all needed folders to save the figures
 
